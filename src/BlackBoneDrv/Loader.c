@@ -892,7 +892,7 @@ NTSTATUS BBMapWorker( IN PVOID pArg )
 /// Manually map driver into system space
 /// </summary>
 /// <param name="pPath">Fully qualified native path to the driver</param>
-/// <returns>Status code</returns>
+/// <returns>Status code</returns> //TODO内存加载
 NTSTATUS BBMMapDriver( IN PUNICODE_STRING pPath )
 {
     HANDLE hThread = NULL;
